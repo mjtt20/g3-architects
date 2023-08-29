@@ -270,3 +270,199 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+.hide{
+    display: none;
+}
+@media only screen and (max-width:668px) {
+    .container{
+        width: 100%;
+        height: 900px;
+    }
+    .nav {
+        top: 30px;
+        left: 25px;
+        width: 90%;
+    }
+    .nav-head{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .nav-items{
+        padding: 6px;
+        font-size: 18px;
+    }
+    .head {
+        margin-left: 20%;
+        top: 50px;
+        font-size: 35px;
+    }
+    .headline {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0px;
+        top: 300px;
+    }
+    .lorem {
+        top: 330px;
+        margin: auto;
+        width: 85%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .Explore-More {
+        padding: 25px 21px 24px 20px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF900E;
+        text-decoration: none;
+        position: relative;
+        top: 400px;
+        bottom: 0px;
+        left: 32%;
+        font-size: 15px;
+    }
+    .banner {
+        width:100%;
+        bottom: 600px;
+        margin-top: 400px;
+        font-size: 18px;
+    }
+    .images{
+        width: 90%;
+        margin: auto;
+    }
+    .feature-sec1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .img4{
+        width: 160px;
+    }
+    .h1 {
+        padding-left: 10px;
+        border-left:5px solid #FF900E ;
+        font-size: 35px;
+        width: 90%;
+        transform: translate(20px);
+    }
+    .Explore-part{
+        width: 100%;
+    }
+    .lorem-2 {
+        width: 90%;
+        transform: translate(20px);
+    }
+    .Explore-More-2{
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+    .feature-sec2 {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .image1{
+        transform: translate(18px);
+        width: 90%;
+    }
+    .enjoy {
+        margin-left: 5%;
+        width: 80%;
+        border-left: 5px solid #FF900E;
+        font-size: 35px;
+    }
+    .there-2 {
+        width: 89%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .facts-section{
+        margin: 150px auto;
+    }
+    .There{
+        line-height: 20px;
+    }
+    .feture-box {
+        margin:auto;
+        padding-bottom:3% ;
+        width: 90%;
+        height: 100%;
+    }
+    .year {
+        transform: translate(0px,-40px);
+        font-size: 10px;
+        width: 20%;
+        padding-left:7% ;
+        padding-top: 7%;
+        padding-bottom: 4%;
+        margin-left: 34%;
+        }
+    .year-span {
+        font-size: 15px;
+    }
+    .Facts {
+        padding-left: 5%;
+        border-left: 5px solid #FF900E;
+        font-size: 36px;
+    }
+    .facts-section{
+        width: 90%;
+    }
+    .about-facts {
+        font-size: 15px;
+        width: 90%;
+        line-height: 20px;
+    }
+    .achivement{
+        grid-template-columns: repeat(2,1fr);
+        width: 85%;
+        margin: 50px auto;
+        gap: 5%;
+    }
+    .for-all{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .icons{
+        width: 30%;
+        padding-top: 5%;
+    }
+    .numbers{
+        font-size: 20px;
+    }
+    .for-all h4{
+        font-size: 10px;
+    }
+    .footer-section{
+        width: 90%;
+    }
+    .sponsors{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-div {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+    }
+    .footer-h1{
+        font-size: 35px;
+    }
+    .footer-p{
+        width: 85%;
+        font-size: 15px;
+    }
+    .footer-span{
+        font-size: 15px;
+    }
+    .items{
+        width: 70%;
+        height: inherit;
+        margin-bottom: 20%;  
+    }
+    .transform{
+        transform: translate(65%);
+    }
+}
