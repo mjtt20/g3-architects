@@ -270,9 +270,6 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
-.hide{
-    display: none;
-}
 @media only screen and (max-width:668px) {
     .container{
         width: 100%;
